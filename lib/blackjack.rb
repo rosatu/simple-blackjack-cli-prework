@@ -38,9 +38,9 @@ def hit?(card_total)
   loop do
     prompt_user
     get_user_input
-    if user_input == "s"
+    if get_user_input == "s"
     break
-  elsif user_input == "h"
+  elsif get_user_input == "h"
     deal_card
     break
   else
